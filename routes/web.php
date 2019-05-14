@@ -106,5 +106,6 @@ Route::group(['prefix'=>'admin'],function(){
 //https://www.youtube.com/watch?v=FO4RS_F0oIw&list=PLzrVYRai0riQ-K705397wDnlhhWu-gAUh&index=66
 Route::get('trangchu','PagesController@trangchu');
 Route::get('lienhe','PagesController@lienhe');
+Route::get('gioithieu','PagesController@gioithieu');
 Route::get('loaitin/{idLoaiTin}/{tenkhongdau}.html','PagesController@loaitin');
 Route::get('tintuc/{id}/{tenkhongdau}.html','PagesController@tintuc');

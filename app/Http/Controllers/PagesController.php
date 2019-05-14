@@ -23,6 +23,9 @@ class PagesController extends Controller
     function lienhe(){
     	return view('pages.lienhe');
     }
+    function gioithieu(){
+        return view('pages.gioithieu');
+    }
     function loaitin($idLoaiTin){
         $loaitin = LoaiTin::find($idLoaiTin);
         $tintuc = TinTuc::where('idLoaiTin',$idLoaiTin)->paginate(5);
