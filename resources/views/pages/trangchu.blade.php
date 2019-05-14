@@ -50,7 +50,7 @@
 
 									<div class="col-md-4">
 										@foreach($data->all() as $tin)
-											<a href="detail.html">
+											<a href="tintuc/{{$tin->id}}/{{$tin->TieuDeKhongDau}}.html">
 												<h4>
 													<span class="glyphicon glyphicon-list-alt"></span>
 													{{$tin->TieuDe}}
